@@ -1,0 +1,40 @@
+.sliderm {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.sliderm .slide {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	transition: opacity 1s ease;
+	opacity: 0;
+}
+.sliderm .slide.active {
+	opacity: 1;
+	height: 100%;
+}
+.sliderm .slide.active img {
+	width: 100vw;
+	height: 100%;
+	object-fit: cover;
+	-webkit-box-reflect: below;
+}
+.sliderm .slide.active .slide-text {
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	transform: translateX(-50%);
+	left: 50%;
+	bottom: 20px;
+}
+.domains h1{
+	font-weight: 700;
+	font-size: 32px;
+}

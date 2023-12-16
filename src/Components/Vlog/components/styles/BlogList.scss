@@ -1,0 +1,117 @@
+.blog-list {
+  margin: 1px;
+  width: 100%;
+  align-items: center;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blog-item {
+    margin: 10px;
+    flex: 1;
+    width: 25vw;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .blog-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      .blog-image {
+        width: 100px;
+        height: 100px;
+
+        img {
+          padding: 10px;
+          width: 100%;
+         height: 100%;
+        }
+      }
+
+      .blog-title {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+
+ .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
+ color: #fff;
+}
+
+
+/* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 368px) {
+  h2 {
+    font-size: 20px; // Reduce the font size for the heading
+  }
+
+  .blog-item {
+    margin: 5px 0; // Reduce the margin between blog items
+  }
+
+  .blog-link {
+    flex-direction: column; // Stack the image and title on smaller screens
+  }
+
+  .blog-image {
+    width: 100%; // Make the image full width
+    height: auto; // Maintain aspect ratio
+  }
+
+  .blog-title {
+    margin-top: 10px; // Add spacing between image and title
+    font-size: 16px; // Reduce the font size for the title
+  }
+
+  .pagination {
+    margin-top: 10px; // Adjust the spacing between the blog list and pagination
+  }
+
+  .pagination button {
+    padding: 5px 8px; // Reduce the button size
+    font-size: 14px; // Reduce the font size for pagination buttons
+  }
+}
