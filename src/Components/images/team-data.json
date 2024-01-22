@@ -1,0 +1,300 @@
+{
+    "director": [
+      {
+        "id": 1,
+        "name": "Shailendra Kumar Singh",
+        "position": "Director",
+        "image": "images/OurTeam/sk.png",
+        "ig": "images/OurTeam/sk.png",
+        "iglink": "www.google.com",
+        "bio": "Director's bio..."
+      }, 
+      {
+        "id": 2,
+        "name": "Rohit Singh",
+        "position": "Director",
+        "image": "images/OurTeam/Rohit.png",
+        "bio": "I am an Electronics & Telecommunication Engineer by Education, with a diverse background encompassing 12 years of experience as a Management Consultant by Profession.",
+        "ig": "images/OurTeam/Rohit.png",
+        "iglink": "www.google.com"
+      } 
+    ],
+    "management": [
+     
+      {
+        "id": 1,
+        "name": "Vikash Kumar Mishra",
+        "position": "Governance",
+        "image": "images/OurTeam/Vikash.png",
+        "bio": "",
+        "ig": "images/OurTeam/Vikash.png"
+      }
+     
+      
+    ],
+    "team-leader": [
+      {
+        "id": 1,
+        "name": "Sonal Singh ",
+        "position": "HR Manager|MBA in HR and Marketing",
+        "image": "images/OurTeam/Sonal.png",
+        "bio": "Bringing a strategic blend of HR expertise and marketing acumen to the table. With a passion for people and a keen eye for business growth, I'm dedicated to crafting dynamic HR solutions that drive success for both employees and organizations.My commitment is to foster a positive workplace culture and nurture talent.",
+        "ig": "images/OurTeam/Sonal.png"
+      },    {
+        "id": 2,
+        "name": "Joydev Pratihar",
+        "position": "Team Leader",
+        "image": "images/OurTeam/Joydev.png",
+        "bio": ""
+      },    {
+        "id": 3,
+        "name": "Om Prakash",
+        "position": "Team Leader",
+        "image": "images/OurTeam/OM.png",
+        "bio": ""
+      },    {
+        "id": 4,
+        "name": "Shukhwant ",
+        "position": "Team Leader",
+        "image": "images/OurTeam/Default.png",
+        "bio": ""
+      },    {
+        "id": 4,
+        "name": "Govind ",
+        "position": "Team Leader",
+        "image": "images/OurTeam/Default.png",
+        "bio": ""
+      }
+
+    ],
+    "gis": [
+      {
+        "id": 1,
+        "name": "Praveen Panna",
+        "position": "Gis Engineer ",
+        "image": "images/OurTeam/Praveen.png",
+        "bio": ""
+      },
+      {
+        "id": 2,
+        "name": "Bablu Gope",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Bablu.png",
+        "bio": ""
+      },
+      {
+        "id": 3,
+        "name": "Amit Kumar",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Amit.png",
+        "bio": ""
+      },
+      {
+        "id": 4,
+        "name": "Tripti Khalko",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Tripti.png",
+        "bio": ""
+      },
+      {
+        "id": 5,
+        "name": "Rose Toopo",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Rose.png",
+        "bio": ""
+      },
+      {
+        "id": 6,
+        "name": "Arun Kumar",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Arun.png",
+        "bio": ""
+      },
+      {
+        "id": 7,
+        "name": "Aman Singh",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Aman.png",
+        "bio": ""
+      },
+      {
+        "id": 8,
+        "name": "Amrit Kumar",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Amrit.png",
+        "bio": ""
+      },
+      {
+        "id": 9,
+        "name": "Arpita Adhikari",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Aprita.png",
+        "bio": ""
+      },
+      {
+        "id": 10,
+        "name": "Simran Soy",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Simran.png",
+        "bio": ""
+      },
+      {
+        "id": 11,
+        "name": "Digvijaya Sharma",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Digvijaya.png",
+        "bio": ""
+      },
+      {
+        "id": 12,
+        "name": "Sneha Sharma",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Sneha.png",
+        "bio": ""
+      },
+      {
+        "id": 13,
+        "name": "Prantik Das",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Default.png",
+        "bio": ""
+      }
+    ], "ladiar": [
+      {
+        "id": 1,
+        "name": "Sumeet Shekhar",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Sumit.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 2,
+        "name": "Omkar",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Default.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 3,
+        "name": "Owais",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Owais.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 4,
+        "name": "Hemant Tirki",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Default.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 5,
+        "name": "Ashish Khalko",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Default.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 6,
+        "name": "Jhuma Dev",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Jhuma.png",
+        "bio": "Lidar/ Gis Engineer"
+      },{
+        "id": 7,
+        "name": "Dinesh",
+        "position": "Gis Engineer",
+        "image": "images/OurTeam/Dinesh.png",
+        "bio": "Lidar/ Gis Engineer"
+      }
+    ],
+    "cad": [
+     {
+        "id": 2,
+        "name": "Aditya Tigga",
+        "position": "Cad Engineer",
+        "image": "images/OurTeam/Aditya.png",
+        "bio": ""
+      },{
+        "id": 3,
+        "name": "Atul Hurhuria",
+        "position": "Cad Engineer",
+        "image": "images/OurTeam/Atul.png",
+        "bio": ""
+      },{
+        "id": 4,
+        "name": "Amul Tirki",
+        "position": "Cad Engineer",
+        "image": "images/OurTeam/Amul.png",
+        "bio": ""
+      },{
+        "id": 5,
+        "name": "Nishant Lakra",
+        "position": "Cad Engineer",
+        "image": "images/OurTeam/Nishant.png",
+        "bio": ""
+      }
+    ],
+    "software": [
+     {
+        "id": 2,
+        "name": "Abhishek Kumar Sharma",
+        "position": "Software Developer",
+        "image": "images/OurTeam/Abhishek.png",
+        "bio": "Experties:-React.js,Node.js,Mongoose,Express.js"
+      }
+    ],
+    "content": [
+      {
+        "id": 1,
+        "name": "Prakash Chandra Bhakat",
+        "position": "Sr. Graphic Designer",
+        "image": "images/OurTeam/Prakash.png",
+        "bio": "Hi, I'm Prakash Chandra Bhakat, a graphic designer with a passion for creating visually appealing and effective designs. I have experience in a variety of design disciplines, including branding, web design, print design, and social media graphics. I am always eager to learn new things and I am constantly looking for ways to improve my skills."
+      }, {
+        "id": 2,
+        "name": "Praneet Srivastava",
+        "position": "Content Writer",
+        "image": "images/OurTeam/Default.png",
+        "bio": "I am a dedicated content writer. My passion for crafting compelling content drives me to deliver engaging and precise writing. With a keen eye for detail and a commitment to deadlines. Specialize in producing high-quality content that resonates with readers. Let's bring your ideas to life through my words."
+      }
+    ],
+    "domains":[
+      { "id": 1, "name":"Agriculture" , "url": "images/Cliparts/Domains/d1.png" },
+      { "id": 2, "name": "Defence", "url": "images/Cliparts/Domains/d2.png" },
+      { "id": 3, "name":"Digital Tax", "url": "images/Cliparts/Domains/d3.png "},
+      { "id": 4, "name":"Disaster Management" , "url":" images/Cliparts/Domains/d4.png "},
+      { "id": 5, "name":"Environment", "url": "images/Cliparts/Domains/d5.png"},
+      { "id": 6, "name": "Forestry", "url": "images/Cliparts/Domains/d6.png" },
+      { "id": 7, "name": "Geo Marketing", "url": "images/Cliparts/Domains/d7.png" },
+      { "id": 8, "name": "Infrastructure ", "url": "images/Cliparts/Domains/d8.png" },
+      { "id": 9, "name": "Minerals & Mining", "url": "images/Cliparts/Domains/d9.png" },
+      { "id": 10, "name": "Municipality", "url": "images/Cliparts/Domains/d10.png" },
+      { "id": 11, "name": "Power Sector", "url": "images/Cliparts/Domains/d11.png" },
+      { "id": 12, "name": "Smart City", "url": "images/Cliparts/Domains/d12.png" },
+      { "id": 13, "name":"Planning", "url": "images/Cliparts/Domains/d13.png" }
+    ],   "geolotics":[
+      { "id": 1, "name":"Beat Planner" , "url": "images/Cliparts/GeolyticsProducts/g1.png","link":"/about" },
+      { "id": 2, "name": "Dairy Management", "url": "images/Cliparts/GeolyticsProducts/g2.png" },
+      { "id": 3, "name":"Digital Tax ", "url": "images/Cliparts/GeolyticsProducts/g3.png"},
+      { "id": 4, "name":"Flood System" , "url":"images/Cliparts/GeolyticsProducts/g4.png "},
+      { "id": 5, "name":"Forestry", "url": "images/Cliparts/GeolyticsProducts/g5.png"},
+      { "id": 6, "name": "FPC", "url": "images/Cliparts/GeolyticsProducts/g6.png" },
+      { "id": 7, "name": "Geolytics Agro", "url": "images/Cliparts/GeolyticsProducts/g7.png" },
+      { "id": 8, "name": "Geolytics Changes", "url": "images/Cliparts/GeolyticsProducts/g8.png" },
+      { "id": 9, "name": "Inventory Management", "url": "images/Cliparts/GeolyticsProducts/g9.png" },
+      { "id": 10, "name": "Kishan Mall", "url": "images/Cliparts/GeolyticsProducts/g10.png" },
+      { "id": 11, "name": "Mining", "url": "images/Cliparts/GeolyticsProducts/g11.png" },
+      { "id": 12, "name": "Tracker", "url": "images/Cliparts/GeolyticsProducts/g12.png" },
+      { "id": 13, "name":"University ", "url": "images/Cliparts/GeolyticsProducts/g13.png" },
+      { "id": 13, "name":"Urban", "url": "images/Cliparts/GeolyticsProducts/g14.png" }
+    ],   "services":[
+      { "id": 1, "name":"2D Mapping Services" , "url": "images/Cliparts/OurServices/s1.png" },
+      { "id": 2, "name": "3D Mapping Services", "url": "images/Cliparts/OurServices/s2.png" },
+      { "id": 3, "name":"Analytics And modeling", "url": "images/Cliparts/OurServices/s3.png "},
+      { "id": 4, "name":"Engineering Services" , "url":"images/Cliparts/OurServices/s4.png"},
+      { "id": 5, "name":"3D Satellite Images", "url": "images/Cliparts/OurServices/s5.png"},
+      { "id": 6, "name": "IOT", "url": "images/Cliparts/OurServices/s6.png" },
+      { "id": 7, "name": "IT Services", "url": "images/Cliparts/OurServices/s7.png" },
+      { "id": 8, "name": "SAAS", "url": "images/Cliparts/OurServices/s8.png" },
+      { "id": 9, "name": "Topology Services ", "url": "images/Cliparts/OurServices/s9.png" },
+      { "id": 10, "name": "Value Added Services", "url": "images/Cliparts/OurServices/s10.png" }
+    ]
+  }
+  

@@ -1,0 +1,1489 @@
+.Service{
+    width: 100vw;
+    height: 100%;
+justify-content: space-around;
+    .gisimg {
+     
+        
+        .image-container {
+            position: relative;
+            display: inline-block;
+            img {
+                width: 100vw;
+                height: auto;
+            }
+        }
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+            h4{
+font-size: 38px;
+text-transform: uppercase;
+            }
+            h3{
+                font-size: 19px;
+                text-transform: capitalize;
+            }
+        }
+    }        
+    .gistopic{
+    width: 100vw;
+    height:100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    .gisaboutimg{
+        
+        width: 50vw;
+  
+      align-items: center;
+      margin: auto;
+      img{
+        margin: auto;
+        width:100%;
+        height: 100%;
+      }
+      }
+      .gisamain{
+        width: 90%;
+        margin-right: 10px;
+        justify-content: start;
+        .NormalS{
+            color: black;
+        }
+        h4{
+            font-size: 24px;
+            color: rgb(50, 2, 75);
+        }
+        p{
+            font-size: 18px;
+            align-items: flex-start;
+        }
+        button{
+            background-color:rgb(50, 2, 75) ;
+            color: white;
+            border-radius: 30px 30px 30px 30px;
+            margin-top: 20px;
+            
+           
+        }
+      }
+    
+}
+
+.counters-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(50, 2, 75);
+  }
+  
+  .counter {
+    
+    color: white;
+    
+    padding: 10px;
+    border-radius: 5px;
+    width:100%;
+    text-align: center;
+    h5{
+        font-size: 18px;
+        margin: 0;
+    }
+    h4{
+        font-size: 20px;
+        margin: 0;
+    }
+   
+  }
+  .GisAbout1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 26px;
+    }
+    p{
+        width: 60vw;
+    }
+    img{
+        width: 75px;
+        height: 75px;
+    }
+    .GisAbout2{
+        display: flex;
+    padding: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
+     
+.GisContainer{
+    width: 25%;
+    height: 100%;
+border: 1px solid pink;
+border-radius: 30px 30px 30px 30px;
+padding: 30px;
+margin: 20px;
+h4{
+    width: 100%;
+    font-size: 20px;
+}
+p{
+    width: 100%;
+    font-size: 16px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+}
+.GisContainer1{
+    width: 25%;
+    height: 100%;
+border: 1px solid green;
+border-radius: 30px 30px 30px 30px;
+padding: 30px;
+margin: 20px;
+h4{
+    width: 100%;
+    font-size: 21px;
+}
+p{
+    width: 100%;
+    font-size: 16px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+}
+.GisContainer2{
+    width: 25%;
+    height: 100%;
+border: 1px solid blue;
+border-radius: 30px 30px 30px 30px;
+padding: 30px;
+margin: 20px;
+h4{
+    width: 100%;
+    font-size: 20px;
+}
+p{
+    width: 100%;
+    font-size: 16px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+}
+    }
+   }
+   //gisservice
+   .GisServices{
+    width: 100%;
+    height: 100%;
+    display: flex;
+ justify-content: center;
+ 
+ div{
+    width: 100vw;
+    padding: 90px;
+ }
+    img{
+        width: 100%;
+    height:100%;
+   
+    }
+   }
+   .GisServices1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    h1{
+        font-size: 26px;
+    }
+    p{
+        width: 60vw;
+    }
+   }
+   .GisWhy{
+   .GisWhy1{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    h1{
+        font-size: 26px;
+    }
+    p{
+        width: 60vw;
+    }
+   }
+   .GisWhy2{
+    display: flex;
+padding: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    
+    .GisContainer1{
+        width: 25%;
+        height: 100%;
+    border: 1px solid green;
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 20px;
+    &:hover{
+        h4{
+            display: flex;
+         justify-content: center;
+        }
+        p{
+            display: flex;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+    }
+    h4{
+    
+        width: 100%;
+        font-size: 28px;
+       
+    }
+    p{
+        display: none;
+        width: 100%;
+        font-size: 16px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    }
+
+    .GisContainer2{
+        width: 25%;
+        height: 100%;
+    border: 1px solid blue;
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 21px;
+    &:hover{
+        h4{
+            display: flex;
+         justify-content: center;
+        }
+        p{
+            display: flex;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+    }
+    h4{
+    
+        width: 100%;
+        font-size: 28px;
+       
+    }
+    p{
+        display: none;
+        width: 100%;
+        font-size: 16px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    }
+    .GisContainer3{
+        width: 25%;
+        height: 100%;
+    border: 1px solid pink;
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 20px;
+    img{
+        width: 75px;
+        height: 75px;
+    }
+  
+    &:hover{
+        h4{
+            display: flex;
+         justify-content: center;
+        }
+        p{
+            display: flex;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+    }
+    h4{
+    
+        width: 100%;
+        font-size: 32px;
+       
+    }
+    p{
+        display: none;
+        width: 100%;
+        font-size: 16px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    }
+}
+
+}
+}
+@media (max-width: 980px) {
+    .Service {
+    width: 100vw;
+        padding: 0px; /* Reduce padding */
+        .gisimg {
+            .image-container { .overlay-text{
+                left: 47%;
+                width: 55%; /* Adjust the left position of the overlay text */
+                h4 {
+                    font-size: 21px;
+                    /* Increase font size */
+                }
+                h3 {
+                    font-size: 16px; /* Decrease font size */
+                }
+            }
+        }
+           
+        }
+        .gistopic {
+            margin-bottom: 30px;
+            .gisaboutimg {
+                width: 100%; /* Increase the width of the image container */
+                img {
+                    width: 100%;/* Increase image width */
+                    height: auto;
+                }
+            }
+            .gisamain {
+                h4 {
+                    font-size: 24px; /* Adjust font size */
+                }
+                p {
+                    font-size: 18px; /* Decrease font size */
+                }
+                button {
+                    font-size: 18px;
+                    /* Decrease font size */
+                }
+            }
+        }
+        .GisAbout1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width: 60vw;
+                font-size: 18px;
+            }
+            img{
+                width: 75px;
+                height: 75px;
+            }
+            .GisAbout2{
+                display: flex;
+            padding: auto;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100%;
+             
+        .GisContainer{
+            width: 40%;
+            height: 350px;
+        border: 1px solid pink;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 20px;
+        }
+        p{
+            width: 100%;
+            font-size: 16px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer1{
+            width: 40%;
+            height: 350px;
+        border: 1px solid green;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 21px;
+        }
+        p{
+            width: 100%;
+            font-size: 16px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer2{
+            width: 40%;
+            height: 350px;
+        border: 1px solid blue;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 20px;
+        }
+        p{
+            width: 100%;
+            font-size: 16px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+            }
+           }
+        .GisAbout2 {
+            .GisContainer, .GisContainer1, .GisContainer2 {
+                width: 45%; /* Adjust container width */
+                padding: 20px; /* Reduce padding */
+                h4 {
+                    font-size: 18px; /* Decrease font size */
+                }
+                p {
+                    font-size: 12px; /* Decrease font size */
+                }
+            }
+        }
+        .GisServices {
+            div {
+                padding: 30px; /* Reduce padding */
+            }
+            img {
+                width: 100%; /* Make the image responsive */
+                height: auto;
+            }
+        }
+        .GisServices1 {
+            h1 {
+                font-size: 20px; /* Decrease font size */
+            }
+            p {
+                width: 80vw; /* Increase the width of the paragraph */
+            }
+        }
+    }
+}
+@media (max-width: 783px) {
+    .Service {
+    width: 100vw;
+       /* Reduce padding */
+        .gisimg {
+            .image-container { .overlay-text{
+                left: 44%; /* Adjust the left position of the overlay text */
+                h4 {
+                    font-size: 15px; /* Increase font size */
+                }
+                h3 {
+                    font-size: 12px; /* Decrease font size */
+                }
+            }
+        }
+           
+        }
+        .gistopic {
+            .gisaboutimg {
+                width: 100%; /* Increase the width of the image container */
+                img {
+                    width: 100%; /* Increase image width */
+                    height: auto;
+                }
+            }
+            .gisamain {
+                h4 {
+                    font-size: 20px; /* Adjust font size */
+                }
+                p {
+                    font-size: 14px; /* Decrease font size */
+                }
+                button {
+                    font-size: 14px; /* Decrease font size */
+                }
+            }
+        }
+        .counters-container {
+            height: 80px; /* Adjust the height */
+        }
+        .counter {
+            h5 {
+                font-size: 14px; /* Decrease font size */
+            }
+            h4 {
+                font-size: 16px; /* Decrease font size */
+            }
+        }
+        .GisAbout1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width:84vw;
+                font-size: 18px;
+            }
+            img{
+                width: 75px;
+                height: 75px;
+            }
+            .GisAbout2{
+                display: flex;
+            padding: auto;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100%;
+             
+        .GisContainer{
+            width: 40%;
+            height: 100%;
+        border: 1px solid pink;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 23px;
+        }
+        p{
+            width: 100%;
+            font-size: 18px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer1{
+            width: 40%;
+            height: 100%;
+        border: 1px solid green;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 21px;
+        }
+        p{
+            width: 100%;
+            font-size: 18px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer2{
+            width: 40%;
+            height: 100%;
+        border: 1px solid blue;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 24px;
+        }
+        p{
+            width: 100%;
+            font-size: 19px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+            }
+           }
+        .GisAbout2 {
+            .GisContainer, .GisContainer1, .GisContainer2 {
+                width: 45%; /* Adjust container width */
+                padding: 20px; /* Reduce padding */
+                h4 {
+                    font-size: 18px; /* Decrease font size */
+                }
+                p {
+                    font-size: 12px; /* Decrease font size */
+                }
+            }
+        }
+        .GisServices {
+            div {
+                padding: 30px; /* Reduce padding */
+            }
+            img {
+                width: 100%; /* Make the image responsive */
+                height: auto;
+            }
+        }
+        .GisServices1 {
+            h1 {
+                font-size: 20px; /* Decrease font size */
+            }
+            p {
+                width: 80vw; /* Increase the width of the paragraph */
+            }
+        }
+        .GisWhy{
+            .GisWhy1{
+             width: 100vw;
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-top: 40px;
+             margin-bottom: 0;
+         
+             h1{
+                 font-size: 26px;
+             }
+             p{
+                 width: 60vw;
+             }
+            }
+            .GisWhy2{
+             display: flex;
+         padding: auto;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             width: 100vw;
+             height: 100%;
+             
+             .GisContainer1{
+                 width: 40%;
+                 height: 100%;
+             border: 1px solid green;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 100px;
+                 height: 100px;
+             }
+             }
+         
+             .GisContainer2{
+                 width: 40%;
+                 height: 100%;
+             border: 1px solid blue;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 21px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 100px;
+                 height: 100px;
+             }
+             }
+             .GisContainer3{
+                 width: 40%;
+                 height: 100%;
+             border: 1px solid pink;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             img{
+                 width: 75px;
+                 height: 75px;
+             }
+           
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 32px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 100px;
+                 height: 100px;
+             }
+             }
+         }
+         
+         }
+    }
+}
+@media (max-width: 645px) {
+    .Service {
+        width: 100vw;
+           /* Reduce padding */
+            .gisimg {
+                .image-container { .overlay-text{
+                    left: 44%; /* Adjust the left position of the overlay text */
+                    h4 {
+                        font-size: 12px; /* Increase font size */
+                    }
+                    h3 {
+                        font-size: 10px; /* Decrease font size */
+                    }
+                }
+            }
+               
+            }
+            .gistopic {
+                .gisaboutimg {
+                    width: 100%; /* Increase the width of the image container */
+                    img {
+                        width: 100%; /* Increase image width */
+                        height: auto;
+                    }
+                }
+                .gisamain {
+                    h4 {
+                        font-size: 15px; /* Adjust font size */
+                    }
+                    p {
+                        font-size: 12px; /* Decrease font size */
+                    }
+                    button {
+                        font-size: 14px; /* Decrease font size */
+                    }
+                }
+            }
+            .GisServices1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 40px;
+                margin-bottom: 0;
+             
+            
+                h1{
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 17px;
+                    width: 80vw;
+                    text-align:justify;
+                }
+               }
+        }
+}
+@media (max-width: 545px) {
+    .Service {
+   width: 100%;
+   margin: 0;
+  
+        .gisimg {
+           
+            .image-container {
+                 .overlay-text{
+                left: 44%; /* Adjust the left position of the overlay text */
+                h4 {
+                    font-size: 12px; /* Increase font size */
+                }
+                h3 {
+                    font-size: 10px; /* Decrease font size */
+                }
+                img{
+                 
+                    width: 100%;
+                }
+            }
+        }
+        .GisWhy{
+            .GisWhy1{
+             width: 100vw;
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-top: 40px;
+             margin-bottom: 0;
+         
+             h1{
+                 font-size: 26px;
+             }
+             p{
+                 width: 60vw;
+             }
+            }
+            .GisWhy2{
+             display: flex;
+         padding: auto;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             width: 100%;
+             height: 100%;
+             
+             .GisContainer1{
+                 width: 90%;
+                 height: 100%;
+             border: 1px solid green;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 80px;
+                 height: 80px;
+             }
+             }
+         
+             .GisContainer2{
+                 width: 25%;
+                 height: 100%;
+             border: 1px solid blue;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 21px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 80px;
+                 height: 80px;
+             }
+             }
+             .GisContainer3{
+                 width: 25%;
+                 height: 100%;
+             border: 1px solid pink;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             img{
+                 width: 75px;
+                 height: 75px;
+             }
+           
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 32px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 80px;
+                 height: 80px;
+             }
+             }
+         }
+         
+         }
+           
+        }
+        .gistopic {
+            .gisaboutimg {
+                width: 100%; /* Increase the width of the image container */
+                img {
+                    width: 100%; /* Increase image width */
+                    height: auto;
+                }
+            }
+            .gisamain {
+                width: 100%;
+                h4 {
+                    font-size: 12px; /* Adjust font size */
+                }
+                p {
+                    font-size: 10px; /* Decrease font size */
+                }
+                button {
+                    font-size: 10px; /* Decrease font size */
+                }
+            }
+        }
+        .GisAbout1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width:84vw;
+                font-size: 18px;
+            }
+            img{
+                width: 75px;
+                height: 75px;
+            }
+            .GisAbout2{
+                display: flex;
+            padding: auto;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100%;
+             
+        .GisContainer{
+            width: 80%;
+            height: 100%;
+        border: 1px solid pink;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 23px;
+        }
+        p{
+            width: 100%;
+            font-size: 18px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer1{
+            width: 80%;
+            height: 100%;
+        border: 1px solid green;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 21px;
+        }
+        p{
+            width: 100%;
+            font-size: 18px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+        .GisContainer2{
+            width: 80%;
+            height: 100%;
+        border: 1px solid blue;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 24px;
+        }
+        p{
+            width: 100%;
+            font-size: 19px;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        }
+            }
+           }
+    }
+
+}
+@media (max-width: 460px) {
+    .Service {
+   width: 100%;
+   margin: 0;
+  
+        .gisimg {
+           
+            .image-container {
+                 .overlay-text{
+                left: 44%; /* Adjust the left position of the overlay text */
+                h4 {
+                    font-size: 10px; /* Increase font size */
+                }
+                h3 {
+                    font-size: 8px; /* Decrease font size */
+                }
+                img{
+                 
+                    width: 100%;
+                }
+            }
+        }
+           
+        }
+    }
+
+}
+@media (max-width: 360px) {
+    .Service {
+   width: 100%;
+   margin: 0;
+  
+        .gisimg {
+           
+            .image-container {
+                 .overlay-text{
+                left: 44%; /* Adjust the left position of the overlay text */
+                h4 {
+                    font-size: 8px; /* Increase font size */
+                }
+                h3 {
+                    font-size: 7px; /* Decrease font size */
+                }
+                img{
+                 
+                    width: 100%;
+                }
+                
+            }
+        }
+           
+        }
+        .GisAbout1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width:84vw;
+                font-size: 18px;
+            }
+            img{
+                width: 75px;
+                height: 75px;
+            }
+            .GisAbout2{
+                display: flex;
+            padding: auto;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100%;
+             
+        .GisContainer{
+            width: 95%;
+            height: 100%;
+        border: 1px solid pink;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 17px;
+            margin: 10px;
+        }
+        p{
+            width: 100%;
+            font-size: 13px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        }
+        .GisContainer1{
+            width: 95%;
+            height: 100%;
+        border: 1px solid green;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 17px;
+            margin: 10px;
+        }
+        p{
+            width: 100%;
+            font-size: 13px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        }
+        .GisContainer2{
+            width: 95%;
+            height: 100%;
+        border: 1px solid blue;
+        border-radius: 30px 30px 30px 30px;
+        padding: 30px;
+        margin: 20px;
+        h4{
+            width: 100%;
+            font-size: 17px;
+            margin: 10px;
+        }
+        p{
+            width: 100%;
+            font-size: 13px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        }
+            }
+           }
+           .GisServices1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 0;
+        
+            h1{
+                font-size: 19px;
+            }
+            p{
+                font-size: 15px;
+                width: 60vw;
+            }
+            div img{
+                width: 200px;
+                height: 200px;
+                justify-content:center;
+            }
+
+           }
+           .GisWhy{
+            .GisWhy1{
+             width: 100vw;
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             margin-top: 40px;
+             margin-bottom: 0;
+         
+             h1{
+                 font-size: 26px;
+             }
+             p{
+                 width: 60vw;
+             }
+            }
+            .GisWhy2{
+             display: flex;
+         padding: auto;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             width: 100%;
+             height: 100%;
+             
+             .GisContainer1{
+                 width: 80%;
+                 height: 100%;
+             border: 1px solid green;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 150px;
+                 height: 150px;
+             }
+             }
+         
+             .GisContainer2{
+                 width: 80%;
+                 height: 100%;
+             border: 1px solid blue;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 21px;
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 28px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 150px;
+                 height: 150px;
+             }
+             }
+             .GisContainer3{
+                 width: 80%;
+                 height: 100%;
+             border: 1px solid pink;
+             border-radius: 30px 30px 30px 30px;
+             padding: 30px;
+             margin: 20px;
+             box-shadow: 20px;
+             img{
+                 width: 75px;
+                 height: 75px;
+             }
+           
+             &:hover{
+                 h4{
+                     display: flex;
+                  justify-content: center;
+                 }
+                 p{
+                     display: flex;
+                 }
+                 img{
+                     width: 75px;
+                     height: 75px;
+                 }
+             }
+             h4{
+             
+                 width: 100%;
+                 font-size: 32px;
+                
+             }
+             p{
+                 display: none;
+                 width: 100%;
+                 font-size: 16px;
+             }
+             img{
+                 width: 150px;
+                 height: 150px;
+             }
+             }
+         }
+         
+         }
+    }
+
+}

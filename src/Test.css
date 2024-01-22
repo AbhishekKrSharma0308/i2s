@@ -1,0 +1,52 @@
+.App1234{
+justify-content: center;
+align-items: center;
+
+  
+}
+.App123{
+  background-image:url(./Components/images/gis/503.png); 
+  position: relative;
+  width: 200px;
+  height: 100vh;
+  margin: 0 auto;
+  
+  background-repeat: no-repeat;
+  
+}
+.container {
+  position: relative;
+  width: 200px;
+  height: 100%;
+  margin: 0 auto;
+
+
+  border-radius:50px 50px 50px 50px;
+ 
+}
+
+.rotating-image {
+  width: 100vw;
+  height: 80vh;
+ /* Replace with your image */
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 4s linear infinite; /* Change the duration as needed */
+}
+.rotating-image img{
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(100%, 100%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

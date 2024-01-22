@@ -1,0 +1,61 @@
+$color_1: #FF5733;
+
+/* App.css */
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.eror{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../images/contor.png");
+
+.container {
+	position: relative;
+	width: 100vw;
+	height: 50vh;
+	animation: rotate 4s linear infinite;
+
+.revolving-image {
+	position: absolute;
+	left: 50%;
+	transform: translate(50%, 50%) rotate(360deg);
+	animation: rotate 4s linear infinite reverse;
+}
+img {
+	max-width: 50px;
+	max-height: 50px;
+}
+.error-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.error-text {
+	text-align: center;
+	h1{
+		font-size: 22px;
+	}
+}
+.animated-text {
+	font-size: 36px;
+	color: $color_1;
+	margin: 10px;
+	opacity: 0;
+	animation: fadeIn 20s ease-in-out forwards;
+}
+}
+}
